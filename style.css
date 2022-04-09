@@ -326,7 +326,6 @@ a {
 }
 .item .item-content .title-item {
   font-size: 1.3rem;
-  /* overflow: hidden; */
   line-height: 1.2;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -337,14 +336,12 @@ a {
 .item img {
   max-width: 18.8rem;
   margin: 0 auto;
+  padding-bottom: 1rem;
 }
 .item .item-content .price {
   font-size: 1.6rem;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
   color: #ee4d2d;
+  padding: 1rem 0;
 }
 
 footer {
@@ -371,7 +368,6 @@ footer ul li {
 }
 
 .arrow-up {
-  /* display: inline-block; */
   padding: 2rem;
   background: #ee4d2d;
   position: fixed;
@@ -382,4 +378,13 @@ footer ul li {
 }
 .arrow-up i {
   font-size: 1.6rem;
+}
+.follow ul i {
+  padding: 0 1rem;
+}
+.follow a {
+  color: rgba(0, 0, 0, 0.54);
+}
+.follow a:hover {
+  color: #ee4d2d;
 }
